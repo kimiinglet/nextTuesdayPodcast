@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Homepage from "../src/Components/Homepage";
+import Navbar from '../src/Components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Navbar />
+        <Homepage />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>If you can't take the heat, don't take the hit</code>
         </p>
         <a
           className="App-link"
